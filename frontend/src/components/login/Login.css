@@ -1,0 +1,40 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+    .left-section img {
+        max-width: 100%;
+    }
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+    .right-section h2 {
+        margin-bottom: 30px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.signup-link {
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #f2f2f2;
+    background-color: #1da1f2;
     padding: 10px 20px;
     display: flex;
     justify-content: flex-end; /* Right align items */
@@ -7,6 +7,7 @@
 
     .navbar ul {
         list-style-type: none;
+        color:white;
         margin: 30px 100px 0px 0px;
         padding: 0;
         display: flex; /* Use flexbox for better alignment control */
@@ -21,13 +22,13 @@
 
     .navbar li {
         margin-left: 20px;
-        color:black;
+        color:white;
         padding-left:25px;/* Add spacing between links */
     }
 
     .navbar a {
         text-decoration: none;
-        color: black; /* Link color */
+        color: white; /* Link color */
         font-weight: bold;
     }
 

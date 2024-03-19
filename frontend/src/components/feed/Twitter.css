@@ -1,0 +1,129 @@
+.twitter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tweet-form {
+    margin-bottom: 20px;
+}
+
+.tweet-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.tweet-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tweet-form button:hover {
+    background-color: #0e71a9;
+}
+
+.tweets {
+    display: grid;
+    gap: 20px;
+}
+
+.tweet {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-content {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.hashtag,
+.mention {
+    color: #1da1f2; /* Blue color for hashtags and mentions */
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #999;
+}
+
+.tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.like-action,
+.comment-action {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #999;
+}
+
+.like-action:hover,
+.comment-action:hover {
+    color: #1da1f2;
+}
+
+.comment-count {
+    margin-left: 5px;
+    color: #999;
+}
+
+.comment-section {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.comment-input {
+    width: calc(100% - 40px);
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.comment-submit {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top:10px;
+}
+
+.comment-submit:hover {
+    background-color: #0e71a9;
+}

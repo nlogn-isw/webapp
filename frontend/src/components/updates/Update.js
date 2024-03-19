@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "./Update.css";
 import Card from "./Card";
 
@@ -53,7 +52,7 @@ const Update = () => {
                 onChange={handleDescriptionChange}
                 className="input-field"
                 placeholder="What's on your mind?"
-
+                    style={{ width: "98%", maxWidth: "1160px", minWidth: "1160px", minHeight: "122px", maxHeight: "122px" }}
 
                
              

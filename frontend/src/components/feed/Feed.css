@@ -1,0 +1,129 @@
+/* Feed.css */
+.feed-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    text-align: left;
+}
+
+.post-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post-actions {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.location{
+    font-size: 12.5px;
+}
+.post-actions > div {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post-actions > div:last-child {
+    margin-right: 0;
+}
+
+.likes {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.caption {
+    padding: 10px;
+    font-style: italic;
+    margin-bottom:10px;
+    color:seagreen;
+}
+/* Feed.css */
+
+.new-post {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+margin:auto;
+margin-bottom:20px;
+    max-width:800px;
+}
+
+.new-post input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.new-post button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-post button:hover {
+    background-color: #45a049;
+}
+
