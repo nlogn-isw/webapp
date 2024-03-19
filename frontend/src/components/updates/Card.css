@@ -67,7 +67,11 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
     margin-right: 0px;
+=======
+    margin-right: 16px;
+>>>>>>> 26ac3712d119c314bfccf73679799592a153612b
     padding: 0;
     color: #888;
 }
