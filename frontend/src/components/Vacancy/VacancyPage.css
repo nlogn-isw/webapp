@@ -1,0 +1,27 @@
+.vacancy-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .vacancy-page h1 {
+        text-align: center;
+        color: #008080; /* Teal */
+        margin-bottom: 40px;
+    }
+
+.add-vacancy-button {
+    display:block;
+    margin:auto;
+    background-color: #008080; /* Teal */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+    .add-vacancy-button:hover {
+        background-color: #005f5f; /* Darker teal on hover */
+    }
