@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Profile from './components/Profile/Profile';
+import Landing from './components/landing/Landing';
 import Update from './components/updates/Update';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/" element={<Navbar />} />
                 <Route path="/updates" element={<Update />} />
                 <Route path="/Profile" element={<Profile />} />
+                <Route path="/landing" element={<Landing />} />
             </Routes>
 
       </BrowserRouter>
