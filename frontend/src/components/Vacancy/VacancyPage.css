@@ -10,6 +10,8 @@
     }
 
 .add-vacancy-button {
+    display:block;
+    margin:auto;
     background-color: #008080; /* Teal */
     color: #fff;
     border: none;

@@ -14,6 +14,8 @@ function App() {
                 <Route path="/" element={<Navbar />} />
                 <Route path="/updates" element={<Update />} />
                 <Route path="/Profile" element={<Profile />} />
+                <Route path="/Vacancies" element={<VacancyPage />} />
+                <Route path="/Matches" element={<MatchPage />} />
             </Routes>
 
       </BrowserRouter>
