@@ -17,7 +17,10 @@ function App() {
                 <Route path="/Profile" element={<Profile />} />
                 <Route path="/Vacancies" element={<VacancyPage />} />
                 <Route path="/Matches" element={<MatchPage />} />
+<<<<<<< HEAD
                 <Route path="/landing" element={<Landing />} />
+=======
+>>>>>>> 2abb587569e509ae83229a27d1e4e6de6529175f
             </Routes>
 
       </BrowserRouter>
