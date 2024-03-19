@@ -51,7 +51,6 @@ const Update = () => {
                 id="description"
                 value={description}
                 onChange={handleDescriptionChange}
-                style={{ width: "98%", maxWidth: "1160px", minWidth: "1160px", minHeight: "122px", maxHeight: "122px" }}
                 className="input-field"
                 placeholder="What's on your mind?"
 
