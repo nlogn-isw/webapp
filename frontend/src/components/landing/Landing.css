@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light background color */
+    width: 100%; /* Full width */
+}
+
+.left {
+    width: 50%;
+    padding-right: 20px; 
+    /* Add spacing between text and image */
+    margin-left:70px;
+}
+
+.right {
+    width: 50%;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styling for text */
+.left h2 {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
