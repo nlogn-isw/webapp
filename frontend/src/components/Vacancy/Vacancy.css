@@ -1,0 +1,56 @@
+.vacancy {
+    background-color: #f0f8ff; /* Light blue */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .vacancy h2 {
+        color: #008080; /* Teal */
+    }
+
+    .vacancy p {
+        color: #333;
+    }
+
+    .vacancy h3 {
+        color: #008080; /* Teal */
+        margin-top: 20px;
+    }
+
+    .vacancy ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .vacancy li {
+        color: #555;
+    }
+
+/* src/components/VacancyPage.css */
+.vacancy-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .vacancy-page h1 {
+        text-align: center;
+        color: #008080; /* Teal */
+        margin-bottom: 40px;
+    }
+
+.add-vacancy-button {
+    background-color: #008080; /* Teal */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+    .add-vacancy-button:hover {
+        background-color: #005f5f; /* Darker teal on hover */
+    }
