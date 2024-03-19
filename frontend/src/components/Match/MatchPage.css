@@ -1,0 +1,10 @@
+.match-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .match-page h1 {
+        text-align: center;
+        color: #008080; /* Teal */
+        margin-bottom: 40px;
+    }
