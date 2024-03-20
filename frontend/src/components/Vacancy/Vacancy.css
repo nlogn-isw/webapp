@@ -7,7 +7,7 @@
 }
 
     .vacancy h2 {
-        color: #008080; /* Teal */
+        color: #1f2c53; /* Teal */
     }
 
     .vacancy p {
@@ -15,7 +15,7 @@
     }
 
     .vacancy h3 {
-        color: #008080; /* Teal */
+        color: #1f2c53; /* Teal */
         margin-top: 20px;
     }
 
@@ -36,12 +36,12 @@
 
     .vacancy-page h1 {
         text-align: center;
-        color: #008080; /* Teal */
+        color: #1f2c53; /* Teal */
         margin-bottom: 40px;
     }
 
 .add-vacancy-button {
-    background-color: #008080; /* Teal */
+    background-color: #1f2c53; /* Teal */
     color: #fff;
     border: none;
     border-radius: 4px;

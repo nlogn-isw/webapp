@@ -7,7 +7,7 @@
 }
 
     .add-vacancy-form h2 {
-        color: #008080; /* Teal */
+        color: #1f2c53; /* Teal */
         margin-bottom: 20px;
     }
 
@@ -28,11 +28,11 @@
         .add-vacancy-form form input:focus,
         .add-vacancy-form form textarea:focus {
             outline: none;
-            border-color: #008080; /* Teal */
+            border-color: #1f2c53; /* Teal */
         }
 
     .add-vacancy-form form button {
-        background-color: #008080; /* Teal */
+        background-color: #1f2c53; /* Teal */
         color: #fff;
         border: none;
         border-radius: 4px;

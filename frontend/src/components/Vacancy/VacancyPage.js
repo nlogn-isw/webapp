@@ -6,42 +6,45 @@ import AddVacancyForm from './AddVacancyForm'; // Import AddVacancyForm componen
 import './VacancyPage.css'; // Import CSS file
 
 const VacancyPage = () => {
-    // Sample data for vacancies
-    const vacancies = [
+    const [vacancies, setVacancies] = useState([
         {
             title: 'Software Engineer',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'Both frontend as well as backend knowledge is required',
             requirements: ['Proficiency in JavaScript', 'Experience with React'],
-            product: 'Product A',
+            product: 'NextGen',
             experienceRequired: '2+ years',
         },
         {
             title: 'Data Analyst',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'Proficient in data analysis tools with some knowledge of development',
             requirements: ['Strong analytical skills', 'Experience with SQL'],
-            product: 'Product B',
-            experienceRequired: '3+ years',
+            product: 'Simba',
+            experienceRequired: '4+ years',
         },
         {
             title: 'UI/UX Designer',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'Knowledge of design elements for financial applications.',
             requirements: ['Experience with UI/UX design tools', 'Creative thinking'],
-            product: 'Product C',
+            product: 'Hubble',
             experienceRequired: '3+ years',
         },
         {
             title: 'DevOps Engineer',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'Can work with both aws and azure',
             requirements: ['Experience with Docker', 'Knowledge of CI/CD pipelines'],
-            product: 'Product D',
+            product: 'Source Connect',
             experienceRequired: '2+ years',
         },
-    ];
-
+    ]);
     const [showAddForm, setShowAddForm] = useState(false);
 
     const handleAddVacancyClick = () => {
         setShowAddForm(true);
+    };
+
+    const handleAddVacancySubmit = (newVacancy) => {
+        setVacancies([...vacancies, newVacancy]);
+        setShowAddForm(false); // Close the form after submission
     };
 
     return (
@@ -50,7 +53,7 @@ const VacancyPage = () => {
             <button className="add-vacancy-button" onClick={handleAddVacancyClick}>
                 Add New Vacancy
             </button>
-            {showAddForm ? <AddVacancyForm /> : null}
+            {showAddForm ? <AddVacancyForm onSubmit={handleAddVacancySubmit} /> : null}
             {vacancies.map((vacancy, index) => (
                 <Vacancy
                     key={index}
@@ -66,3 +69,4 @@ const VacancyPage = () => {
 };
 
 export default VacancyPage;
+
