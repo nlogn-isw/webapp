@@ -21,7 +21,7 @@ function App() {
                 <Route path="/Profile" element={<><Navbar /><Profile /></>} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/Vacancies" element={<><Navbar /><VacancyPage /></>} />
-                <Route path="/Matches" element={<MatchPage />} />
+                <Route path="/Matches" element={<><Navbar /><MatchPage /></>} />
                 <Route path="/feed" element={<><Navbar /><Feed /></>} />
                 <Route path="/landing" element={<Landing />} />
                 <Route path="/twitter" element={<><Navbar /><Twitter /></>} />
