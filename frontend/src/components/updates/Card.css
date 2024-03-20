@@ -1,6 +1,6 @@
 .card {
     background-color: #fff;
-    box-shadow: 0px 5px 5px -5px #596bd1;
+    box-shadow: 0px 5px 5px -5px #1f2c53;
     padding: 16px;
     margin-bottom: 20px;
 }
@@ -25,18 +25,18 @@
 
 .username {
     font-size: smaller;
-    color: #596bd1;
+    color: #1f2c53;
     margin: 10px;
 }
 
 .time {
     font-size: smaller;
-    color: #596bd1;
+    color: #1f2c53;
     margin: 10px;
 }
 .pipe {
     font-size: smaller;
-    color: #596bd1;
+    color: #1f2c53;
     margin: 10px;
 }
 

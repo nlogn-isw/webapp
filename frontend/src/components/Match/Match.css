@@ -7,7 +7,7 @@
 }
 
     .match h2 {
-        color: #008080; /* Teal */
+        color: #1f2c53; /* Teal */
     }
 
     .match p {
@@ -15,7 +15,7 @@
     }
 
     .match button {
-        background-color: #008080; /* Teal */
+        background-color: #1f2c53; /* Teal */
         color: #fff;
         border: none;
         border-radius: 4px;

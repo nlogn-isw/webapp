@@ -1,7 +1,6 @@
 .container {
-    background-color: #fff;
+    background-color: #f9f9f9;
     padding: 10px;
-
     border-radius: 5px;
     max-width: 80%;
     margin: 5px auto;
@@ -21,12 +20,12 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #596bd1;
+    border: 2px solid #1d2653;
     margin-bottom: 15px;
 }
 
 .button {
-    background-color: #596bd1;
+    background-color: #1f2c53;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -34,9 +33,7 @@
     cursor: pointer;
 }
 
-    .button:hover {
-        background-color: #0056b3;
-    }
+  
 
 .updates-container {
     background-color: #fff;
