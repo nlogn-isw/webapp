@@ -79,19 +79,17 @@
     padding: 10px;
 }
 
-.comments {
-    margin-top: 5px;
+.commentssss {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.commentss {
     margin-bottom: 5px;
-   
+    text-align: left;
+    padding-left: 40px;
+    
 }
-
-
-
-.comment {
-    display: flex;
-    align-items: center; /* Align items vertically */
-}
-
 
 .caption {
     padding: 10px;

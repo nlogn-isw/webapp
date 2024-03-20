@@ -148,9 +148,9 @@ const Twitter = () => {
                                 <CommentIcon />
                             </div>
                         </div>
-                        <div className="comment-section">
+                        <div className="comment-sectionxxx">
                             {tweet.comments.map((comment, i) => (
-                                <div key={i} className="comment">
+                                <div key={i} className="commentxx">
                                     <span className="username">{comment.username}</span>: {comment.comment}
                                 </div>
                             ))}

@@ -4,7 +4,7 @@ import CommentPopup from './CommentPopup'; // Import CommentPopup component
 import img1 from '../../assets/img1.jpg'; // Import images with relative paths
 import img2 from '../../assets/img2.jpg';
 import img3 from '../../assets/img3.jpg';
-import img4 from "../../assets/img4.jpg";
+import img4 from '../../assets/img4.jpg';
 import img5 from '../../assets/img5.jpg';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -103,12 +103,11 @@ const Feed = () => {
                     </div>
                     
                     <div className="caption">{user.caption}</div>
-                    <div className="comments">
+                    <div className="commentssss">
                         {comments[index].map((comment, i) => (
-                            <div key={i} className="comment">
-                                <span className="username">{comment.username}</span>: {comment.comment}
+                            <div key={i} className="commentss">
+                                <span className="username"><Link to="/profile">{comment.username}</Link></span>: {comment.comment}
                             </div>
-
                         ))}
                     </div>
                 </div>
