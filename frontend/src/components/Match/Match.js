@@ -14,7 +14,7 @@ const Match = ({ name, email, currentPosition, matchPercentage }) => {
       <h2>{name}</h2>
       <p><strong>Email:</strong> {email}</p>
       <p><strong>Current Position:</strong> {currentPosition}</p>
-      {showMatchPercentage ? <MatchPercentage matchPercentage={matchPercentage} /> : <button onClick={handleShowMatchPercentage}>Requirements Match</button>}
+      {showMatchPercentage ? <MatchPercentage matchPercentage={matchPercentage} /> : <button onClick={handleShowMatchPercentage}>Requirements Fulfilled</button>}
     </div>
   );
 };

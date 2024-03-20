@@ -27,7 +27,7 @@ const Landing = () => {
                 </div>
                 <div className="post-card">
                     <img src="https://images.pexels.com/photos/1595387/pexels-photo-1595387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Post 2" />
-                    <h3><span className="small-text">Product Pulse: Stay Updated on Service Developments</span></h3>
+                    <h3><span className="small-text">Product Pulse: Stay Updated</span></h3>
                     <p className="big-text">From regular progress reports to critical announcements, this platform empowers employees and senior developers to share important updates about our products and ongoing work.</p>
                 </div>
                 <div className="post-card">

@@ -14,6 +14,7 @@ const Vacancy = ({ title, description, requirements, product, experienceRequired
                     <li key={index}>{requirement}</li>
                 ))}
             </ul>
+            <a href="/matches" className="view-matches-button">View Matches</a>
         </div>
     );
 };
