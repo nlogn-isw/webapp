@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f2f2f2; /* Light background color */
+    background-color: #1f2c53; /* Updated background color */
     width: 100%; /* Full width */
 }
 
@@ -27,13 +27,13 @@ img {
 
 /* Additional styling for text */
 .left h2 {
-    color: #333;
+    color: #f9f9f9;
     font-size: 50px;
     margin-bottom: 10px;
 }
 
 .left p {
-    color: #666;
+    color: #f9f9f9;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -76,7 +76,7 @@ img {
 
     /* Styling for text within post cards */
     .post-card a {
-        text-decoration: none !important; /* Remove underline */   
+        text-decoration: none !important; /* Remove underline */
     }
 
 

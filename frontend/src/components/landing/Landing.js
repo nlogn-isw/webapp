@@ -20,7 +20,7 @@ const Landing = () => {
                     <img src={image} alt="Image" />
                 </div>
             </div>
-            <h1 style={{ textAlign: 'center' }}>SERVICES</h1>
+            <h1 style={{ textAlign: 'center', color:'#1f2c53' }}>SERVICES</h1>
             <div className="post-cards">
                 <a href="#" className="post-card">
                     <img src="https://img.freepik.com/free-photo/happy-diverse-people-using-digital-devices_53876-96225.jpg" alt="Post 1" />
