@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #1da1f2;
+    background-color: #1f2c53;
     padding: 10px;
     border-bottom: 2px solid #fff;
 }
@@ -26,5 +26,5 @@
 }
 
     .nav-link:hover {
-        text-decoration:underline;
+        background-color: #555;
     }

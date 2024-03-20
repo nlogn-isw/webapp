@@ -25,7 +25,7 @@
     margin-top: 10px;
     font-size: 16px;
     color: #fff;
-    background-color: #1da1f2;
+    background-color: #1f2c53;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -33,7 +33,7 @@
 }
 
 .tweet-form button:hover {
-    background-color: #0e71a9;
+    background-color: #1da1a9;
 }
 
 .tweets {
@@ -57,11 +57,12 @@
 
 .username {
     font-weight: bold;
+
 }
 
 .hashtag,
 .mention {
-    color: #1da1f2; /* Blue color for hashtags and mentions */
+    color: #1f2c53; /* Blue color for hashtags and mentions */
     font-weight: bold;
 }
 
@@ -87,7 +88,7 @@
 
 .like-action:hover,
 .comment-action:hover {
-    color: #1da1f2;
+    color: #1f2c53;
 }
 
 .comment-count {
@@ -115,8 +116,8 @@
 .comment-submit {
     padding: 8px 15px;
     font-size: 14px;
-    color: #fff;
-    background-color: #1da1f2;
+    color: #f9f9f9;
+    background-color: #1f2c53;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -125,5 +126,5 @@
 }
 
 .comment-submit:hover {
-    background-color: #0e71a9;
+    background-color: #1da1a9;
 }

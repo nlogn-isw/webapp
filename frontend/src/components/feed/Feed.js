@@ -4,13 +4,12 @@ import CommentPopup from './CommentPopup'; // Import CommentPopup component
 import img1 from '../../assets/img1.jpg'; // Import images with relative paths
 import img2 from '../../assets/img2.jpg';
 import img3 from '../../assets/img3.jpg';
-import img4 from '../../assets/img4.jpg';
+import img4 from "../../assets/img4.jpg";
 import img5 from '../../assets/img5.jpg';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CommentIcon from '@mui/icons-material/Comment';
-import {Link} from "react-router-dom";
-
+import { Link } from 'react-router-dom';
 const Feed = () => {
     const [likes, setLikes] = useState([0, 0, 0, 0, 0]); // State for keeping track of likes for each post
     const [showCommentPopup, setShowCommentPopup] = useState(false); // State to control the display of comment popup
@@ -84,7 +83,7 @@ const Feed = () => {
                     <div className="post-header">
                         <img className="user-avatar" src={`https://via.placeholder.com/150?text=${index + 1}`} alt="User Avatar" />
                         <div className="user-info">
-                            <div className="username" ><Link to="/profile">{user.username}</Link></div>
+                           <div className="username"> <Link className="username" to="/profile">{user.username}</Link></div>
                             <div className="location">{user.location}</div>
                         </div>
                     </div>
@@ -109,6 +108,7 @@ const Feed = () => {
                             <div key={i} className="comment">
                                 <span className="username">{comment.username}</span>: {comment.comment}
                             </div>
+
                         ))}
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const Feed = () => {
                 <input type="text" placeholder="Caption" />
                 <input type="text" placeholder="Location" />
                 <input type="file" accept="image/*"  />
-                <button>Add New Post</button>
+                <button className='buttona'>Add New Post</button>
             </div>
         </>
     );

@@ -122,7 +122,7 @@ const Twitter = () => {
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
                 ></textarea>
-                <button onClick={() => handleTweetSubmit(content)}>Tweet</button>
+                <button  onClick={() => handleTweetSubmit(content)}>Tweet</button>
             </div>
             <div className="tweets">
                 {tweets.map((tweet, index) => (
