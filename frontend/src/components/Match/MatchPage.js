@@ -5,26 +5,26 @@ import './MatchPage.css'; // Import CSS file
 const MatchPage = () => {
     const matches = [
         {
-            name: 'John Doe',
-            email: 'john@example.com',
+            name: 'Milan MY',
+            email: 'milanmy@gmail.com',
             currentPosition: 'Software Engineer',
-            matchPercentage: 80,
+            matchPercentage: 70,
         },
         {
-            name: 'Jane Smith',
-            email: 'jane@example.com',
+            name: 'Yash Shah',
+            email: 'shahyash@gmail.com',
             currentPosition: 'Data Analyst',
             matchPercentage: 90,
         },
         {
-            name: 'Michael Johnson',
-            email: 'michael@example.com',
+            name: 'Gyan Ranjan',
+            email: 'gyanranjan2424.com',
             currentPosition: 'Project Manager',
-            matchPercentage: 75,
+            matchPercentage: 60,
         },
         {
-            name: 'Emily Brown',
-            email: 'emily@example.com',
+            name: 'Palak Khandelwal',
+            email: 'khandelwal2000@gmail.com',
             currentPosition: 'UI/UX Designer',
             matchPercentage: 85,
         },
@@ -32,7 +32,7 @@ const MatchPage = () => {
 
     return (
         <div className="match-page">
-            <h1>Matched Profiles</h1>
+            <h1>Available Profiles</h1>
             {matches.map((match, index) => (
                 <Match
                     key={index}

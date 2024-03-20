@@ -1,5 +1,3 @@
-// AddVacancyForm.js
-
 import React, { useState } from 'react';
 import './AddVacancyForm.css'; // Import CSS file
 
